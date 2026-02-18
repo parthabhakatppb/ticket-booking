@@ -20,7 +20,7 @@ services:
       DB_PASSWORD: support_ticket
       DB_HOST: db
       DB_PORT: 5432
-      LLM_API_KEY: ${LLM_API_KEY}
+      LLM_API_KEY: ${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}
     ports:
       - "8000:8000"
     depends_on:

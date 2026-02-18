@@ -4,11 +4,13 @@
 This project delivers a support ticket system with a Django REST backend, a Vite + React frontend, and a PostgreSQL database. Tickets can be filtered and searched, and a dashboard surfaces aggregate stats in real time.
 
 ## Setup
-1. Export your LLM API key before starting Docker:
+1. Create a `.env` file (optional, easiest):
 
 ```bash
-export LLM_API_KEY="your-key-here"
+LLM_API_KEY=your-key-here
 ```
+
+2. Or export your LLM API key before starting Docker:
 
 2. Build and run everything:
 
